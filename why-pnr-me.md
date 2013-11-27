@@ -2,7 +2,7 @@ Date: 2013-11-18
 Title: Why pnr.me?
 Tags: introduction, pnr
 Slug: why-pnr-me
-author_gplusid: +SalilPanikkaveettil
+Gplusid: +SalilPanikkaveettil
 Summary: Reasons why pnr.me was created and how it helps Indian Railways passengers 
 
 [pnr.me](http://pnr.me/ "pnr.me") was created to ease the difficulty passengers were having in predicting whether or not their waiting list train tickets will get confirmed. Here is a brief introduction to the problem and how we are trying to solve this problem
