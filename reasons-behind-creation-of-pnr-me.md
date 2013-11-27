@@ -1,9 +1,9 @@
 Date: 2013-11-18
-Title: Why pnr.me?
+Title: Why we created pnr.me and how does it work?
 Tags: introduction, pnr
-Slug: why-pnr-me
+Slug: why-pnr-me-was-created-and-how-does-it-work
 Gplusid: +SalilPanikkaveettil
-Summary: Reasons why pnr.me was created and how it helps Indian Railways passengers 
+Summary: pnr.me was created to help Indian Railways passengers to better predict their final pnr charting status. The problem we are trying to solve and solution are briefly discussed here
 
 [pnr.me](http://pnr.me/ "pnr.me") was created to ease the difficulty passengers were having in predicting whether or not their waiting list train tickets will get confirmed. Here is a brief introduction to the problem and how we are trying to solve this problem
 
