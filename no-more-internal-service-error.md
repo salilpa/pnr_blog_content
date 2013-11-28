@@ -6,7 +6,7 @@ category: tech
 Gplusid: +SalilPanikkaveettil
 Summary: How did pnr.me faced a number of internal service errors and how we set out to fix them one by one
 
-We explained earlier [how our servers went down crashing]( "how our servers crashed after pnr.me was shared by Alok Rodinhood Kejriwal"), after being shared by [mr rodinhood](https://www.facebook.com/rodinhood "Alok Rodinhood Kejriwal"). We needed a fix and we needed it fast
+We explained earlier [how our servers went down crashing](|filename|/how-we-got-our-first-1000-visitors.md "how our servers crashed after pnr.me was shared by Alok Rodinhood Kejriwal"), after being shared by [mr rodinhood](https://www.facebook.com/rodinhood "Alok Rodinhood Kejriwal"). We needed a fix and we needed it fast
 
 What the problem was not
 ------------------------
@@ -36,7 +36,7 @@ The web app
 
 Once internal server error of predictor deamon got almost resolved, we were quite sure that we would not get any more internal service errors. As the great [Thorin Oakenshield](http://www.imdb.com/character/ch0000164/quotes "Thorin Oakenshield") once said "I've never been so wrong in all my life".
 
-We deploy [pnr.me](http://pnr.me "pnr.me") after doing basic testing. But these basic tests cannot handle blackswan errors like the one i recently faced. I was getting pymongo.errors.OperationFailure: quota exceeded error and because of this, the webapp was throwing an internal service error. [How did pnr.me solve pymongo.errors.OperationFailure: quota exceeded when using MongoLab]( "How to solve pymongo.errors.OperationFailure: quota exceeded with MongoLab") is a story for another blog post.
+We deploy [pnr.me](http://pnr.me "pnr.me") after doing basic testing. But these basic tests cannot handle blackswan errors like the one i recently faced. I was getting pymongo.errors.OperationFailure: quota exceeded error and because of this, the webapp was throwing an internal service error. How did pnr.me solve pymongo.errors.OperationFailure: quota exceeded when using MongoLab is a story for another blog post.
 
 We cannot solve all Blackswan events however hard we try. We needed an alert mechanism by which we could react fast to these errors. By following the beautiful articles on [how to set up a SMTPHandler for flask](http://flask.pocoo.org/docs/errorhandling/ "how to send automated mails when flask server throws an error") and how to use [GMail SMTP server with logging module](http://mynthon.net/howto/-/python/python%20-%20logging.SMTPHandler-how-to-use-gmail-smtp-server.txt "How to use Gmail SMTP server with logging module"), we created a alert mechanism which would mail us the second any error is thrown by the flask web server
 
